@@ -1,0 +1,206 @@
+:root {
+    --primery-text-color: rgba(0, 0, 0, 0.8);
+    --title-text-color: #000000;
+    --accent-color: #2196F3;
+    --second-color: #757575;
+    --primery-bg-color: #FFFFFF;
+    --bg-color: #2F303A;
+}
+
+
+.body {
+    background-color:#FFFFFF;
+    color: var(--primery-text-color);
+
+    font-family: roboto, sans-serif;
+    font-size: 14px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+/* фон #FFFFFF */
+.logo {
+    color: var(--title-text-color);
+
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-decoration: none
+}
+.logo:hover {
+    color: var(--accent-color);
+}
+
+.logo-footer {
+    color: var(--primery-bg-color);
+
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    text-decoration: none
+}
+
+.part-logo {
+    color: var(--accent-color)
+}
+
+/* nav-list */
+
+.site-nav .link {
+    color: var(--primery-text-color);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color)
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+.hero {
+    background-color: var(--bg-color);
+}
+
+.hero-title {
+    color: #ffffff;
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.section-position {
+    /* width: 1170px;
+    height: 386px;
+    left: 215px;
+    top: 966px; */
+}
+.second-sections {
+color: var(--primery-text-color);
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+.section-title {
+   color: var(--second-color);
+
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+/* Features */
+
+.features-list .title {
+    color: var(--primery-text-color);
+}
+
+.contacts-link {
+    color: var(--second-color);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+    color: var(--accent-color)
+}
+
+/* Examples */
+
+.examples {
+    color: var(--primery-text-color);
+}
+
+/* buttons */
+
+.button {
+    color: var(--title-text-color);
+    background-color: var(--primery-bg-color);
+
+    width: 216px;
+        height: 50px;
+        left: 692px;
+        top: 430px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.button.primery {
+    color: var(--primery-bg-color);
+    background-color: var(--accent-color);
+}
+
+.button.secondary {
+    color: var(--accent-color);
+    background-color: var(--primery-bg-color);
+}
+
+/* Rabotniki */
+
+.worker-name{
+
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+.worker-title {
+    color: var(--second-color);
+
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+/* footer */
+
+.footer {
+    background-color: var(--bg-color);
+    list-style: none;
+}
+
+.address {
+    color: var(--primery-bg-color);
+
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    Font size: 14px;
+    Line height: 24px;
+    Line height: 146%;
+    Align: Left;
+    Vertical align: Top;
+}
+
+.foot-mailtel {
+    color: var(--second-color);
+
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.foot-mailtel:hover,
+.foot-mailtel:focus {
+    color: var(--accent-color);
+}
